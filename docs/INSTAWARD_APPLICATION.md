@@ -5,10 +5,13 @@
 **Relevant experience:** Rust development  
 **Requested amount:** **US$5,000 equivalent in XLM**  
 **Sprint duration:** 30 days
+**Repository:** https://github.com/Ekpemark/sorobanshield
 
 ## Summary
 
 SorobanShield is a local-first security and audit-preparation MVP for Soroban Rust contracts. It identifies common review points involving authorization, storage lifetime, cross-contract calls, and arithmetic before testnet deployment. It produces explainable findings and an exportable Markdown report. It is security guidance, not a professional audit.
+
+The current public MVP implements four deterministic checks and runs entirely in the browser. The proposed sprint funds the measurable expansion described below; it does not claim that the planned rules, fixtures, CI workflow, user interviews, or deployment are complete today.
 
 ## 30-day sprint
 
