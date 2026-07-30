@@ -29,8 +29,8 @@ Instawards supports early builders preparing to build on Stellar, requires a cle
 
 1. Publish this repository and deploy the website to a public URL.
 2. Record a 90-second demo: paste sample, scan, open a finding, download a report.
-3. Engage with the relevant local Stellar Ambassador Chapter before requesting an Instaward.
-4. Share [the request draft](INSTAWARD_APPLICATION.md), live URL, and demo with the Chapter Lead; agree the scope.
+3. Submit the SCF interest form at [communityfund.stellar.org](https://communityfund.stellar.org/). The current handbook identifies it as the entry point for new projects.
+4. Engage with the relevant local Stellar Ambassador Chapter and share [the request draft](INSTAWARD_APPLICATION.md), live URL, and demo with the Chapter Lead; agree a 30-day scope if the project is directed to the Instaward path.
 5. Submit through the Chapter-led Instawards process—there is no standard public Instaward application.
 6. Complete KYC/KYB, tax, and compliance requests only if selected.
 
