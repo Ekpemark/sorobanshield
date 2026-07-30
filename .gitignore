@@ -4,3 +4,4 @@ node_modules
 *.log
 *.tsbuildinfo
 contracts/**/target/
+contracts/**/test_snapshots/
