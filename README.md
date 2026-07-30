@@ -1,77 +1,37 @@
-# sorobanshield
 # SorobanShield
 
-AI-Powered Security Review and Audit Preparation Platform for Soroban Smart Contracts.
+SorobanShield is an open, local-first security and audit-preparation MVP for Soroban Rust contracts on Stellar. It gives developers fast, explainable review points for authorization, storage, cross-contract calls, and arithmetic before testnet or mainnet deployment.
 
-## Overview
+> **Security notice:** SorobanShield is audit preparation tooling, not a professional security audit or a guarantee that a contract is safe.
 
-SorobanShield helps developers build safer smart contracts on Stellar's Soroban platform through automated security analysis, AI-assisted reviews, vulnerability detection, and audit preparation tools.
+## Run locally
 
-## Problem
+Prerequisite: Node.js 20+.
 
-Smart contract vulnerabilities continue to cause major financial losses across blockchain ecosystems. Soroban developers need specialized tooling to identify security risks before deployment.
+```powershell
+npm.cmd install
+npm.cmd run dev
+```
 
-## Solution
+Then open [http://localhost:3000](http://localhost:3000). The app works fully in-browser: paste a Soroban Rust contract, run the heuristic scan, and download a Markdown security report.
 
-SorobanShield acts as an AI security engineer by:
+## Current MVP coverage
 
-- Detecting vulnerabilities
-- Reviewing authorization logic
-- Identifying storage risks
-- Suggesting security fixes
-- Generating audit reports
-- Integrating with GitHub workflows
-- Providing CI/CD security checks
+- Privileged state-changing entry points that need explicit authorization review
+- Persistent-storage lifecycle risks
+- Cross-contract call review points
+- Arithmetic operations that should use checked arithmetic
+- Human-readable remediation and exportable audit-readiness reports
 
-## Features
+## Grant-ready project evidence
 
-### Security Scanner
-Automated detection of common Soroban vulnerabilities.
+- [Instaward request draft](docs/INSTAWARD_APPLICATION.md)
+- [Eligibility and submission checklist](docs/GRANT_REQUIREMENTS.md)
+- [Security policy](SECURITY.md)
+- [Contribution guide](CONTRIBUTING.md)
 
-### AI Security Review
-AI-powered explanations and remediation suggestions.
+The current scope is an execution-ready 30-day Instaward sprint. It does not claim users, audits, integrations, or vulnerability prevention outcomes that have not yet been independently verified.
 
-### Audit Report Generator
-Professional audit-ready reports.
+## Next milestones
 
-### GitHub Integration
-Automated pull request reviews.
-
-### CI/CD Security Checks
-Deployment protection against critical vulnerabilities.
-
-### Security Knowledge Base
-Community-driven security resources and best practices.
-
-## Technology Stack
-
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Rust
-- PostgreSQL
-- Supabase
-- OpenAI API
-- Soroban
-- Stellar Network
-
-## Roadmap
-
-### Phase 1
-- Static contract scanner
-- Security scoring
-- AI vulnerability explanations
-
-### Phase 2
-- GitHub integration
-- Pull request analysis
-- Audit report generation
-
-### Phase 3
-- CI/CD integrations
-- Team workspaces
-- Enterprise monitoring
-
-## Vision
-
-To become the default security and audit-preparation platform for every team building on Soroban.
+See [docs/GRANT_REQUIREMENTS.md](docs/GRANT_REQUIREMENTS.md) for the current SCF eligibility check and [docs/INSTAWARD_APPLICATION.md](docs/INSTAWARD_APPLICATION.md) for the $5,000, 30-day request. The public grant landing page is available at `/grant`.
