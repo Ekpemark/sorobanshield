@@ -4,6 +4,8 @@
 **Recommended program:** SCF **Instawards**, not SCF Build at this stage  
 **Target request:** US$5,000 equivalent in XLM
 
+> **Submission track check (2026-07-30):** The current project should pursue the Instaward path, not a SCF Build submission. Build review requires verifiable traction or a validated need from an applicant with relevant Stellar ecosystem experience, plus a mainnet-oriented milestone plan. Do not submit the historical Build narrative in place of the current 30-day scope.
+
 ## Why Instawards is the correct current route
 
 SCF Build is intended for teams with readiness to ship a meaningful Stellar product to mainnet in 3–6 months. Its Open Track is for experienced Stellar/domain teams, while its RFP Track requires an active matching RFP. The currently published RFPs do not cover Soroban security scanning. With a single developer whose supplied experience is Rust, no claimed Stellar traction, and a $5k MVP scope, claiming Build eligibility would be inaccurate.

@@ -34,6 +34,8 @@ Then open [http://localhost:3000](http://localhost:3000). The app works fully in
 - [30-day and three-month roadmap](docs/ROADMAP.md)
 - [Demo walkthrough](docs/DEMO_WALKTHROUGH.md)
 - [Pitch deck copy](docs/PITCH_DECK.md)
+- [Grant-readiness checklist](docs/GRANT_CHECKLIST.md)
+- [Vulnerability database](docs/VULNERABILITY_DATABASE.md)
 - [Eligibility and submission checklist](docs/GRANT_REQUIREMENTS.md)
 - [Security policy](SECURITY.md)
 - [Contribution guide](CONTRIBUTING.md)
