@@ -9,3 +9,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 soroban-sdk = "22.0.0"
+
+# Build with: cargo build --target wasm32v1-none --release
