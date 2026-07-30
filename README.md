@@ -2,6 +2,8 @@
 
 SorobanShield is an open, local-first security and audit-preparation MVP for Soroban Rust contracts on Stellar. It gives developers fast, explainable review points for authorization, storage, cross-contract calls, and arithmetic before testnet or mainnet deployment.
 
+**Repository:** [github.com/Ekpemark/sorobanshield](https://github.com/Ekpemark/sorobanshield)
+
 > **Security notice:** SorobanShield is audit preparation tooling, not a professional security audit or a guarantee that a contract is safe.
 
 ## Run locally
@@ -26,6 +28,7 @@ Then open [http://localhost:3000](http://localhost:3000). The app works fully in
 ## Grant-ready project evidence
 
 - [Instaward request draft](docs/INSTAWARD_APPLICATION.md)
+- [SCF interest-form submission packet](docs/SCF_SUBMISSION_PACKET.md)
 - [Eligibility and submission checklist](docs/GRANT_REQUIREMENTS.md)
 - [Security policy](SECURITY.md)
 - [Contribution guide](CONTRIBUTING.md)
