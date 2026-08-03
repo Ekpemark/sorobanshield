@@ -1,5 +1,7 @@
 # Demo walkthrough and recording script
 
+**Watch Demo Video:** [YouTube Shorts - SorobanShield Demo](https://youtube.com/shorts/TI-5CTCuPXg?si=ujCQwP6z2UQQ6RvM)
+
 ## Live-demo checklist
 
 1. Start the app with `npm.cmd run dev` and open `http://localhost:3000`.

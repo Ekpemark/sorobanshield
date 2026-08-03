@@ -6,6 +6,13 @@ SorobanShield is an open, local-first security and audit-preparation MVP for Sor
 
 > **Security notice:** SorobanShield is audit preparation tooling, not a professional security audit or a guarantee that a contract is safe.
 
+## 🎬 Demo Video
+
+[![SorobanShield Demo Video](https://img.youtube.com/vi/TI-5CTCuPXg/hqdefault.jpg)](https://youtube.com/shorts/TI-5CTCuPXg)
+
+▶️ **Watch the demo:** [YouTube Shorts - SorobanShield Demo](https://youtube.com/shorts/TI-5CTCuPXg?si=ujCQwP6z2UQQ6RvM)
+
+
 ## Run locally
 
 Prerequisite: Node.js 20+.
