@@ -2,7 +2,9 @@
 
 SorobanShield is an open, local-first security and audit-preparation MVP for Soroban Rust contracts on Stellar. It gives developers fast, explainable review points for authorization, storage, cross-contract calls, and arithmetic before testnet or mainnet deployment.
 
-**Repository:** [github.com/Ekpemark/sorobanshield](https://github.com/Ekpemark/sorobanshield)
+**Repository:** [github.com/Ekpemark/sorobanshield](https://github.com/Ekpemark/sorobanshield)  
+**Live Application Demo:** [sorobanshield.vercel.app](https://sorobanshield.vercel.app)
+
 
 > **Security notice:** SorobanShield is audit preparation tooling, not a professional security audit or a guarantee that a contract is safe.
 

@@ -5,7 +5,9 @@
 **Relevant experience:** Rust development  
 **Requested amount:** **US$5,000 equivalent in XLM**  
 **Sprint duration:** 30 days
-**Repository:** https://github.com/Ekpemark/sorobanshield
+**Repository:** https://github.com/Ekpemark/sorobanshield  
+**Live Demo:** https://sorobanshield.vercel.app
+
 
 ## Summary
 
