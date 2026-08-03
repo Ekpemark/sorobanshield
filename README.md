@@ -26,11 +26,10 @@ Then open [http://localhost:3000](http://localhost:3000). The app works fully in
 
 ## Current MVP coverage
 
-- Privileged state-changing entry points that need explicit authorization review
-- Persistent-storage lifecycle risks
-- Cross-contract call review points
-- Arithmetic operations that should use checked arithmetic
-- Human-readable remediation and exportable audit-readiness reports
+- **10 Soroban-specific security rules** covering authorization (`require_auth`), persistent storage lifecycle, TTL extension, cross-contract calls, unchecked arithmetic, `unwrap()`/`expect()` panic risks, explicit `panic!`, hardcoded addresses, dynamic `Symbol::new` allocations, and unauthenticated event publishing.
+- **Interactive Contract Presets**: Switch instantly between *Unsafe Vault*, *DeFi Swap*, and *Secure Vault* (Clean Soroban Contract).
+- **Audit Readiness Reports**: Exportable Markdown reports with severity tags, exact source line numbers, evidence snippets, and actionable remediation steps.
+
 
 ## Grant-ready project evidence
 

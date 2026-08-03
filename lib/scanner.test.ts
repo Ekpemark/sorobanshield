@@ -1,16 +1,34 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { scan } from "./scanner.ts";
+import { contractTemplates, scan } from "./scanner.ts";
 
-test("flags the MVP's four supported Soroban review points", () => {
-  const findings = scan(`
-pub fn set_admin(env: Env, admin: Address) {
-  env.storage().persistent().set(&key, &admin);
-  let next = amount - 1;
-  env.invoke_contract::<()>(&target, &symbol, ());
-}`);
+test("flags Soroban review points on unsafe contract template", () => {
+  const findings = scan(contractTemplates.unsafeVault.code);
+  const ruleIds = findings.map(({ id }) => id);
 
-  assert.deepEqual(findings.map(({ id }) => id), ["SS-001", "SS-002", "SS-003", "SS-004"]);
+  assert.ok(ruleIds.includes("SS-001"));
+  assert.ok(ruleIds.includes("SS-002"));
+  assert.ok(ruleIds.includes("SS-003"));
+  assert.ok(ruleIds.includes("SS-004"));
+  assert.ok(ruleIds.includes("SS-005"));
+  assert.ok(ruleIds.includes("SS-007"));
+  assert.ok(ruleIds.includes("SS-008"));
+});
+
+test("flags panic and unwrap risks on DeFi contract template", () => {
+  const findings = scan(contractTemplates.defiRisk.code);
+  const ruleIds = findings.map(({ id }) => id);
+
+  assert.ok(ruleIds.includes("SS-004"));
+  assert.ok(ruleIds.includes("SS-006"));
+  assert.ok(ruleIds.includes("SS-008"));
+  assert.ok(ruleIds.includes("SS-009"));
+  assert.ok(ruleIds.includes("SS-010"));
+});
+
+test("does not flag clean/secure contract template", () => {
+  const findings = scan(contractTemplates.secureVault.code);
+  assert.equal(findings.length, 0);
 });
 
 test("does not flag checked arithmetic", () => {
